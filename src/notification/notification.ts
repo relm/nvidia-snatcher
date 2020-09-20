@@ -5,6 +5,7 @@ import {playSound} from './sound';
 import {sendSlackMessage} from './slack';
 import {sendPushoverNotification} from './pushover';
 import {sendTelegramMessage} from './telegram';
+import {sendDiscordMessage} from './discord';
 
 const notifications = Config.notifications;
 
@@ -15,6 +16,10 @@ export function sendNotification(cartUrl: string) {
 
 	if (notifications.slack.channel && notifications.slack.token) {
 		sendSlackMessage(cartUrl);
+	}
+
+	if (notifications.discord.webHookUrl) {
+		sendDiscordMessage(cartUrl);
 	}
 
 	if (notifications.telegram.accessToken && notifications.telegram.chatId) {

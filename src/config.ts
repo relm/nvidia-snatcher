@@ -34,6 +34,9 @@ const notifications = {
 		accessToken: process.env.TELEGRAM_ACCESS_TOKEN ?? '',
 		chatId: process.env.TELEGRAM_CHAT_ID ?? ''
 	},
+	discord: {
+		webHookUrl: process.env.DISCORD_WEBHOOK_URL ?? '',
+	},
 	test: process.env.NOTIFICATION_TEST ?? 'false'
 };
 
