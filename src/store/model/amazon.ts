@@ -36,6 +36,13 @@ export const Amazon: Store = {
 			url: 'https://www.amazon.com/ASUS-Graphics-DisplayPort-Military-Grade-Certification/dp/B08HHDP9DW?ref_=ast_sto_dp',
 			oosLabels: ['currently unavailable'],
 			captchaLabels: ['enter the characters you see below']
+		},
+		{
+			brand: 'asus',
+			model: 'rog strix',
+			url: 'https://www.amazon.com/ASUS-Graphics-DisplayPort-Axial-tech-2-9-Slot/dp/B08J6F174Z?ref_=ast_sto_dp',
+			oosLabels: ['currently unavailable'],
+			captchaLabels: ['enter the characters you see below']
 		}
 	],
 	name: 'amazon'
