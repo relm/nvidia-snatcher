@@ -32,8 +32,29 @@ export const NewEgg: Store = {
 		},
 		{
 			brand: 'msi',
-			model: 'ventus',
-			url: 'https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-ventus-3x-10g/p/N82E16814137600',
+			model: 'trio',
+			url: 'https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-gaming-x-trio-10g/p/N82E16814137597',
+			oosLabels: ['auto notify', 'out of stock'],
+			captchaLabels: ['are you a human?']
+		},
+		{
+			brand: 'evga',
+			model: 'xc3 bundle',
+			url: 'https://www.newegg.com/Product/ComboDealDetails?ItemList=Combo.4094376',
+			oosLabels: ['auto notify', 'out of stock'],
+			captchaLabels: ['are you a human?']
+		},
+		{
+			brand: 'msi',
+			model: 'trio bundle',
+			url: 'https://www.newegg.com/Product/ComboDealDetails?ItemList=Combo.4094370',
+			oosLabels: ['auto notify', 'out of stock'],
+			captchaLabels: ['are you a human?']
+		},
+		{
+			brand: 'msi',
+			model: 'tuf bundle',
+			url: 'https://www.newegg.com/Product/ComboDealDetails?ItemList=Combo.4094366',
 			oosLabels: ['auto notify', 'out of stock'],
 			captchaLabels: ['are you a human?']
 		}

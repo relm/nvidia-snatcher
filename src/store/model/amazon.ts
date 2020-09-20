@@ -3,13 +3,6 @@ import {Store} from './store';
 export const Amazon: Store = {
 	links: [
 		{
-			brand: 'pny',
-			model: 'xlr8',
-			url: 'https://www.amazon.com/PNY-GeForce-Gaming-Epic-X-Graphics/dp/B08HBR7QBM?ref_=ast_sto_dp',
-			oosLabels: ['currently unavailable'],
-			captchaLabels: ['enter the characters you see below']
-		},
-		{
 			brand: 'msi',
 			model: 'gaming trio',
 			url: 'https://www.amazon.com/MSI-GeForce-RTX-3080-10G/dp/B08HR7SV3M?ref_=ast_sto_dp',
@@ -31,20 +24,6 @@ export const Amazon: Store = {
 			captchaLabels: ['enter the characters you see below']
 		},
 		{
-			brand: 'gigabyte',
-			model: 'windforce',
-			url: 'https://www.amazon.com/GIGABYTE-GeForce-Graphics-WINDFORCE-GV-N3080GAMING/dp/B08HJTH61J?ref_=ast_sto_dp',
-			oosLabels: ['currently unavailable'],
-			captchaLabels: ['enter the characters you see below']
-		},
-		{
-			brand: 'gigabyte',
-			model: 'windforce eagle',
-			url: 'https://www.amazon.com/GIGABYTE-GeForce-Graphics-WINDFORCE-GV-N3080EAGLE/dp/B08HJS2JLJ?ref_=ast_sto_dp',
-			oosLabels: ['currently unavailable'],
-			captchaLabels: ['enter the characters you see below']
-		},
-		{
 			brand: 'asus',
 			model: 'tuf',
 			url: 'https://www.amazon.com/ASUS-Graphics-DisplayPort-Military-Grade-Certification/dp/B08HH5WF97?ref_=ast_sto_dp',
@@ -52,9 +31,9 @@ export const Amazon: Store = {
 			captchaLabels: ['enter the characters you see below']
 		},
 		{
-			brand: 'msi',
-			model: 'ventus',
-			url: 'https://www.amazon.com/MSI-GeForce-RTX-3080-10G/dp/B08HR5SXPS?ref_=ast_sto_dp',
+			brand: 'asus',
+			model: 'tuf - non OC',
+			url: 'https://www.amazon.com/ASUS-Graphics-DisplayPort-Military-Grade-Certification/dp/B08HHDP9DW?ref_=ast_sto_dp',
 			oosLabels: ['currently unavailable'],
 			captchaLabels: ['enter the characters you see below']
 		}
